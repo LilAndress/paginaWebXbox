@@ -6,16 +6,16 @@ import Card from '../components/Card.astro';
 <Layout title="Welcome to Ocaña.">
     <div class="Container">
   <div class="wrapper">
-	<div class="box img1">Img1</div>
-	<div class="box img2">Img2</div>
-	<div class="box img3">Img3</div>
-	<div class="box img4">Img4</div>
-	<div class="box img5">Img5</div>
-	<div class="box img6">Img6</div>
-	<div class="box img7">Img7</div>
-	<div class="box img8">Img8</div>
-	<div class="box img9">Img9</div>
-	<div class="box img10">Img10</div>
+	<div class="box img1"></div>
+	<div class="box img2"><h3 class="texto1">f</h3></div>
+	<div class="box img3"></div>
+	<div class="box img4"></div>
+	<div class="box img5"></div>
+	<div class="box img6"></div>
+	<div class="box img7"></div>
+	<div class="box img8"></div>
+	<div class="box img9"></div>
+	<div class="box img10"></div>
   </div>
 	</div>
 
@@ -26,7 +26,7 @@ import Card from '../components/Card.astro';
 <style>
 	.wrapper{
 		display: grid;
-		grid-template-rows: 120px 120px 120px 120px;
+		grid-template-rows: 30rem 30rem 30rem 30rem;
 		grid-template-areas: 
 		"img1 img1 img2 img3"
 		"img1 img1 img6 img6"
@@ -49,31 +49,47 @@ import Card from '../components/Card.astro';
 
  .img1{
 grid-area: img1;
-
-background: orange;
-
+background-image: url(https://assets.xboxservices.com/assets/7c/b2/7cb25873-2a92-47db-998c-cbeebe79b509.jpg?n=Dragons-Dogma-II_Large-tout-0_1083x1222.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-color: aliceblue;
+border-width: 5px;
 
 
  }
 
  .img2{
 grid-area: img2;
-background: green;
+background-color: rgb(25, 131, 25);
+background-size: cover;
+background-position: center;
 
+top: 100px;
+
+ }
+
+ .texto1{
+  font-size: 45px;
 
 
  }
  .img3{
-grid-area: img3;
-background: purple;
+grid-area: ;
+background-image: url(https://assets.xboxservices.com/assets/e0/33/e0330338-5ef6-446e-9f9c-185dee575f6f.jpg?n=XGP-2023_Small-tout-1084_09-18-23_475x534.jpg);
+background-size: cover;
+background-position: center;
 
 
 
  }
  .img4{
 grid-area: img4;
-background: blue;
-
+background-image: url(https://assets.xboxservices.com/assets/e0/33/e0330338-5ef6-446e-9f9c-185dee575f6f.jpg?n=XGP-2023_Small-tout-1084_09-18-23_475x534.jpg);
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
 
 
@@ -81,49 +97,64 @@ background: blue;
 
  .img5{
 grid-area: img5;
-background: pink;
-
+background-image: url(https://assets.xboxservices.com/assets/a5/2a/a52ae26b-b534-4c48-bfdc-6afca86497a7.jpg?n=Elder-Scrolls-Online_Small-tout-1084_Scions-of-Ithelia_475x534_01.jpg);
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
 
  }
  .img6{
 grid-area: img6;
-background: steelblue;
-
+background-image: url();
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
 
  }
 
  .img7{
 grid-area: img7;
-background: yellowgreen;
-
+background-image: url();
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
 
  }
 
  .img8{
 grid-area: img8;
-background: orchid;
-
+background-image: url();
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
 
  }
 
  .img9{
 grid-area: img9;
-background:   red;
-
-
+background-image: url();
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
 
  }
 
  .img10{
 grid-area: img10;
-background: gray;
-
-
-
+background-image: url();
+background-size: cover;
+background-position: center;
+border-color: aliceblue;
+border-width: 5px;
  }
 
 
